@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{physics}
+
+\pagestyle{fancy}
+\fancyhead[l]{Your Name}
+\fancyhead[c]{Course Name}
+\fancyhead[r]{Date}
+
+\newcommand*{\details}[2]{
+  \textbf{#1} & : #2 \\
+}
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+    \Large{\textbf{Course Name : Homework \ldots}}\\    
+\end{center}
+\vskip 0.25cm
+\begin{tabular}{l@{\hspace{2cm}}l}
+    \details{Class}{\ldots}
+    \details{Instructor}{\ldots}
+    \details{Author}{\ldots}
+    \details{Student Number}{\ldots}
+    \details{Due Date}{\ldots}
+\end{tabular}
+\vskip 0.25cm
+\hline\hline
+\vskip 0.5cm
+\noindent \Large{\textbf{Problem 1 : \ldots}}\vskip 0.5cm
+\large{\textbf{Question :}}
+\begin{enumerate}[label=\alph*.),ref=\alph*]
+    \item Question a.
+    \item Question b.
+\end{enumerate}
+
+\large{\textbf{Answer :}}
+\begin{enumerate}[label=\alph*.),ref=\alph*]
+    \item Answer a.
+    \item Answer b.
+\end{enumerate}
+\vskip 1cm
+\Large{\textbf{Problem 2 : \ldots}}\vskip 0.5cm
+\large{\textbf{Question :}}
+\begin{enumerate}[label=\alph*.),ref=\alph*]
+    \item Question a.
+    \item Question b.
+\end{enumerate}
+
+\large{\textbf{Answer :}}
+\begin{enumerate}[label=\alph*.),ref=\alph*]
+    \item Answer a.
+    \item Answer b.
+\end{enumerate}
+
+\newpage
+This is the second page that displays the header on the page.
+\end{document}
